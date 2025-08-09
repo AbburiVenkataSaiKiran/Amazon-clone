@@ -342,21 +342,18 @@ footer{
     }
 }
 .final{
-    height:150px;
+    height:250px;
     background-color: #131A22;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
 }
-.content{
-    display: flex;
-    width:75%;
-    height: 100px;
-    flex-wrap:wrap;
+
+ .content{
+    display:grid;
+    grid-template-columns:170px 200px 200px 300px;
+    grid-template-rows: 70px 70px;
     
-    align-content: center;
-    padding-left:200px;
-    padding-top:20px;
 
     a{
         text-decoration: none;
@@ -377,7 +374,7 @@ footer{
         color:#c4c4c3;
 
     }
-}
+ }
 .copy{
     height: 60px;
     background-color:#131A22 ;
